@@ -1,0 +1,26 @@
+{
+  "name": "biblioteca_base-de-datos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.2",
+    "express-session": "^1.17.2",
+    "mysql": "^2.18.1",
+    "node-localstorage": "^2.2.1",
+    "node-notifier": "^10.0.0",
+    "node-sessionstorage": "^1.0.0",
+    "nodemon": "^2.0.15",
+    "pug-cli": "^1.0.0-alpha6",
+    "push.js": "^1.0.12",
+    "util.promisify": "^1.1.1",
+    "view": "^1.1.1"
+  }
+}

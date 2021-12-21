@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\..\\..\\..\\..\\..\\..\\Downloads\\Login-Register-Nodejs-master\\Login-Register-Nodejs-master\\core"
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501
+	}
+}

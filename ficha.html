@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Descripcion_libro</title>
+
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+    
+
+    <link rel="stylesheet" href="css/somos.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/styles_ficha.css">
+    
+   
+    <link rel="stylesheet" href="./css/book-container.css">
+    <link rel="stylesheet" href="./css/ficha.css">
+    
+    <link rel="stylesheet" href="css/diseño_perfil.css">
+
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<head>
+<body>
+   <!--Header - menu-->
+   <header>
+
+    <div class="header-content">
+
+        <div class="logo">
+            <h1>Uleam<b>libros</b></h1>
+            
+        </div>
+
+        <div class="menu" id="show-menu">
+            <nav id="formulario">
+                <ul>
+                       
+                        
+                    <li class="menu-selected"><a href="inicio.html" class="text-menu-selected"> 
+                        <i ></i>Inicio</a></li>
+                        
+                        <li><a href="blog.html"> <i ></i>Catalogo</a></li>
+                        <li><a href="somos.html"> <i ></i> Quienes somos</a></li>
+                        <li id="perfil"><a href=" formu.html"> <i ></i> Perfil</a></li>
+                        <li id="inicio_sesion"><a   href="sesion.html"> <i ></i> Iniciar sesión</a></li>
+                        <li id="registro"><a href="registro.html"> <i ></i> Registrarse</a></li>
+                        <li id="libro"><a href="rlibro.html"> <i ></i> Registrar libro</a></li>
+                        <li id="sesion"><a href="inicio.html" onclick="eliminar()"> <i ></i> Cerrar sesión</a></li>
+                </ul>
+            </nav>
+          
+            
+        </div>
+
+    </div>
+
+    <div id="icon-menu">
+        <i class="fas fa-bars"></i>
+    </div>
+
+</header>
+    
+    <div class="container-all " id="move-content">
+        
+    </div>
+        <main class="main">
+            
+            <div class="book-wrapper">
+                <div class="cover-container">
+                    <img src="./img/books/9788435061155.jpg" alt="">
+                </div>
+                <article class="book-record">
+                    <h2 class="book-name">Ficha del libro</h2>
+                    <div class="book-record-data">
+                        <div class="rating"><span class="record-field">Rating:</span> 4/5</div>
+                        <div class="category"><span class="record-field">Clasificación:</span> Histórica &#128220;</div>
+                        <div class="pub-date"><span class="record-field">Año Publicación:</span> 2018</div>
+                        <div class="autor"><span class="record-field">Autor:</span> Bernard Cornwell</div>
+                    </div>
+                    <div class="book-select"><a href="libro.html">Leer Libro</a></div>                
+                </article>
+                <article class="book-summary">
+                    <br>
+            <br>
+            
+                    <h2 class="book-name">Northumbria - El último reino</h2>
+                    <p>Corre el año 866. Los sajones, que han fundado cuatro reinos al sur de la isla de Inglaterra, viven con la mirada puesta en el mar, de donde siempre ha llegado la amenaza en forma de implacables guerreros: los vikingos. Cualquier previsión es inútil para conjurar ese peligro.</p>
+                    <p>En la frontera entre ambos mundos se encuentra el protagonista de esta novela, Uhtred, un joven nacido en una aristocrática familia de Northumbria, y que ha sido raptado y educado por los hombres del sanguinario vikingo Ragnar. Uhtred se enfrenta ahora a la decisión de optar por su origen y reivindicar su legado, o renunciar a ellos y permanecer con quienes lo educaron.</p>
+                    <p>El último reino demuestra el talento de Bernard Cornwell para la construcción de mundos épicos ajustados a los acontecimientos históricos. En esta novela lo que está en juego es la fundación de Inglaterra, que hacia el siglo IX era un entramado de ambiciones y traiciones, sin un poder unificador, sin un rumbo definido. De la mano de personajes inolvidables, el lector asiste al turbulento choque entre la cultura anglosajona y la danesa, entre el cristianismo y el paganismo, entre dos concepciones irreconciliables de la existencia. Con una escritura poderosa y una impactante reconstrucción de época.</p>
+                    <p>El último reino es el primer volumen de una saga que ha conquistado millones de lectores en todo el mundo y que acaba de ser adaptada para la televisión por la BBC y la NBC.</p>
+                </article>
+                <div class="video-container">
+                    <video autoplay loop muted playsinline>
+                        <source src="./video/booktrailer.mp4" type="video/mp4">
+                        <div class="no-video">Disculpa, tu navegador no soporta video</div>
+                    </video>
+                </div>
+            </div>
+        </main>
+        <aside class="aside-related">
+            <section class="category-section related" id="novedades">
+                <h1 class="section-title">Títulos relacionados</h1>
+                <article class="book-container related">
+                    <a class="book-link" href="./ficha.html">
+                        <div class="book-cover">
+                            <img src="./img/books/9788435061155.jpg" alt="">
+                        </div>
+                        <div class="book-detail" title="Ficha del libro">
+                            <h2 class="book-title">Northumbria - El último reino</h2>
+                            <div class="book-meta">
+                                <div class="rating">4/5</div>
+                                <div class="category">Histórica &#128220;</div>
+                                <div class="pub-date">2018</div>
+                                <div class="autor">Bernard Cornwell</div>
+                            </div>
+                            <p class="book-desc">En el 866 Uthred, un joven anglosajón de ascendencia aristocrática, vive escindido entre dos mundos antagónicos..</p>
+                        </div>
+                    </a>
+                </article>         
+                <article class="book-container related">
+                    <a href="./ficha.html">
+                        <div class="book-cover">
+                            <img src="./img/books/9789560920508.jpg" alt="">
+                        </div>
+                        <div class="book-detail" title="Ficha del libro">
+                            <h2 class="book-title">Viajeros - Antología Chilena de Ciencia Ficción</h2>
+                            <div class="book-meta">
+                                <div class="rating">4/5</div>
+                                <div class="category">Scifi &#128640;</div>
+                                <div class="pub-date">2018</div>
+                                <div class="autor">Varios Autores</div>
+                            </div>
+                            <p class="book-desc">Ignición Editorial presenta en esta primera antología un culto a la ciencia ficción clásica y moderna.</p>
+                        </div>
+                    </a>
+                </article>
+                <article class="book-container related">
+                    <a href="./ficha.html">
+                        <div class="book-cover">
+                            <img src="./img/books/9789563585964.jpg" alt="">
+                        </div>
+                        <div class="book-detail" title="Ficha del libro">
+                            <h2 class="book-title">Braindance</h2>
+                            <div class="book-meta">
+                                <div class="rating">4/5</div>
+                                <div class="category">Terror &#128128;</div>
+                                <div class="pub-date">2015</div>
+                                <div class="autor">Guillermo Pereira</div>
+                            </div>
+                            <p class="book-desc">Braindance y otros escalofriantes relatos es una obra que invita, desde otros estados de conciencia, a ser parte de una realidad paralela</p>
+                        </div>
+                    </a>
+                </article>
+                <article class="book-container related">
+                    <a href="./ficha.html">
+                        <div class="book-cover">
+                            <img src="./img/books/9789569362163.jpg" alt="">
+                        </div>
+                        <div class="book-detail" title="Ficha del libro">
+                            <h2 class="book-title">El Fin de las Flores</h2>
+                            <div class="book-meta">
+                                <div class="rating">4/5</div>
+                                <div class="category">Fantasía &#129497;</div>
+                                <div class="pub-date">2018</div>
+                                <div class="autor">M. L. Sandoval</div>
+                            </div>
+                            <p class="book-desc">El fin de las flores es la reinterpretación, aumentada y corregida de la laureada Pétalos para Darién</p>
+                        </div>
+                    </a>
+                </article>
+                <article class="book-container related">
+                    <a href="./ficha.html">
+                        <div class="book-cover">
+                            <img src="./img/books/9788445003701.jpg" alt="">
+                        </div>
+                        <div class="book-detail" title="Ficha del libro">
+                            <h2 class="book-title">El tiempo de la noche</h2>
+                            <div class="book-meta">
+                                <div class="rating">4/5</div>
+                                <div class="category">Terror &#128128;</div>
+                                <div class="pub-date">1960</div>
+                                <div class="autor">William Sloane</div>
+                            </div>
+                            <p class="book-desc">Una nueva interpretación del mito de la diosa de las tinieblas a través de Selena, una moderna Artemisa.</p>
+                        </div>
+                    </a>
+                </article>
+                <article class="book-container related">
+                    <a href="./ficha.html">
+                        <div class="book-cover">
+                            <img src="./img/books/9789878000152.jpg" alt="">
+                        </div>
+                        <div class="book-detail" title="Ficha del libro">
+                            <h2 class="book-title">Harry Potter y el misterio del príncipe</h2>
+                            <div class="book-meta">
+                                <div class="rating">4/5</div>
+                                <div class="category">Fantasía &#129497;</div>
+                                <div class="pub-date">2005</div>
+                                <div class="autor">J. K. Rowling</div>
+                            </div>
+                            <p class="book-desc">Con diecis&eacute;is a&ntilde;os cumplidos, Harry inicia el sexto curso en Hogwarts en medio de terribles acontecimientos que asolan Inglaterra. </p>
+                        </div>
+                    </a>
+                </article>
+                <article class="book-container related">
+                    <a href="./ficha.html">
+                        <div class="book-cover">
+                            <img src="./img/books/9788492918188.jpg" alt="">
+                        </div>
+                        <div class="book-detail" title="Ficha del libro">
+                            <h2 class="book-title">Una obsesión perversa</h2>
+                            <div class="book-meta">
+                                <div class="rating">4/5</div>
+                                <div class="category">Fantasía &#129497;</div>
+                                <div class="pub-date">2005</div>
+                                <div class="autor">V. E. Schwab</div>
+                            </div>
+                            <p class="book-desc">Víctor y Eli eran dos estudiantes universitarios brillantes pero arrogantes que reconocían, el uno en el otro, la misma agudeza y la misma ambición.</p>
+                        </div>
+                    </a>
+                </article>
+            </section>
+        </aside>
+
+    
+    </div>
+                    
+      
+
+
+
+
+
+
+
+
+<div class="container-footer">	
+
+    <footer>
+        
+
+        <div class="redes-footer">
+            <a href="https://www.facebook.com"><i class="fab fa-facebook-f icon-redes-footer"></i></a>
+            <a href="https://mail.google.com/mail/u/0/#inbox"><i class="fab fa-google-plus-g icon-redes-footer"></i></a>
+            <a href="https://www.instagram.com"><i class="fab fa-instagram icon-redes-footer"></i></a>
+        </div>
+
+        <hr>
+        <h4>© 2021 Uleamlibros - Todos los Derechos Reservados</h4>
+
+    </footer>
+
+</div>
+          
+            <script src="js/somos.js"></script>
+            <script src="js/mostar.js"></script>
+</body>
